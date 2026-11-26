@@ -1,0 +1,21 @@
+[project]
+name = "ExamplePlugin"
+version = "1.0.0"
+type = "paper"
+
+[compiler]
+java = 21
+
+[paper]
+api = "1.21.11"
+api_jar = "C:/Minecraft/paper-api.jar"
+libraries = []
+
+[build]
+output = "build"
+jar = "ExamplePlugin.jar"
+
+[plugin]
+main = "net.example.exampleplugin.ExamplePlugin"
+author = "Developer"
+description = "Example plugin built with PoweQ"
